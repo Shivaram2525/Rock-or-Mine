@@ -24,7 +24,7 @@ from sklearn.metrics import accuracy_score
 ```
 #### Data Collection and Processing
 ```
-sonar_df=pd.read_csv('/Users/home/Desktop/Workspace/Personal/Machine_Learning/Rock_or_Mine/Sonar Data.csv',header=None)
+sonar_df=pd.read_csv('/Users/home/........../Sonar Data.csv',header=None)
 ```
 ```
 sonar_df.head()
@@ -48,7 +48,7 @@ model.fit(X_train,Y_train)
 X_train_prediction=model.predict(X_train)
 Training_Accuracy=accuracy_score(X_train_prediction,Y_train)
 print(f"Accuracy on the Training Data is : {Training_Accuracy}")
-print(f"Accuracy on the Training Data is : {round(Training_Accuracy*100,3)}")
+print(f"Accuracy on the Training Data is : {round(Training_Accuracy*100,3)}%")
 ```
 #### Model Evaluation [Test Data]
 ```
@@ -72,4 +72,5 @@ else:
     print("It's a Mine")
 ```
 ## Output:
-<img width="1606" alt="Screenshot 2024-12-31 at 4 47 25 PM" src="https://github.com/user-attachments/assets/496c9278-270f-4ff7-819d-3b806a10752b" />
+<img width="1606" alt="Screenshot 2024-12-31 at 4 49 48 PM" src="https://github.com/user-attachments/assets/06f54015-1eef-42f3-992a-bfbee2f9e422" />
+
